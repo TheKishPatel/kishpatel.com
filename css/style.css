@@ -151,7 +151,7 @@ p.centerText {
 /* Phones */
 
 .phone{
-	height: 475px;
+	height: 568px;
 }
 .phone_right {
 	text-align: right;
@@ -317,7 +317,7 @@ p.author a {
 /* Slide 1 */ 
 
 #slide1{
-	background-color:#f7f7f7;
+	background-color:#f9f9f9;
 	padding: 128px 0 72px 0;
 }
 #slide1 h1 {
@@ -335,7 +335,7 @@ p.author a {
 
 #slide2{
 	background-color:#f1f1f1;
-	padding: 72px 0 72px 0;
+	padding: 96px 0 0px 0;
 }
 #slide2 h1 {
 	margin-bottom: 1em;
@@ -350,7 +350,8 @@ p.author a {
 /* Slide 3 */ 
 
 #slide3{
-	background-color:#f7f7f7;
+	background-color:#f9f9f9;
+	padding: 96px 0 0 0;
 }
 #slide3 h1 {
 	line-height: 0px;
@@ -369,23 +370,20 @@ p.author a {
 }
 
 
+/* Footer */
 
-
-/* Slide 4 */
-
-#slide4{
+#footer{
 	background-color:#444;
 	color:#ffffff;
-	padding: 64px 0;
+	padding: 96px 0;
 	text-align: center;
 }
-#slide4 h1 {
+#footer h1 {
 	color:#ffffff;
 }
-#slide4 h2 {
+#footer h2 {
 
 }
-
 
 
 
@@ -444,6 +442,10 @@ p.author a {
 	width:100%;
 }
 
+.phone {
+	padding-top: 48px;
+}
+
 #slide1 h1 {
 	line-height: 1.1em;
 }
@@ -462,10 +464,10 @@ p.author a {
 #slide3 h2 {
 	line-height: 1em;
 }
-#slide4 h1 {
+#footer h1 {
 	line-height: 1em;
 }
-#slide4 h2 {
+#footer h2 {
 	line-height: 1em;
 }
 
@@ -495,6 +497,7 @@ p.author a {
 	padding:0;
 }
 
+
 .navigation li{
 	float: left;
 	width:25%;
@@ -506,6 +509,7 @@ p.author a {
 	padding: 0;
 	margin: 0;
 }
+
 
 p.quote 
 {
@@ -542,13 +546,12 @@ p.author
 #slide3 h2 {
 	line-height: 1em;
 }
-#slide4 h1 {
+#footer h1 {
 	line-height: 1em;
 }
-#slide4 h2 {
+#footer h2 {
 	line-height: 1em;
 }
-
 
 }
 
