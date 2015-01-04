@@ -6,11 +6,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-	<title>Kish Patel: Product Designer</title>
-	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,500' rel='stylesheet' type='text/css'>
+	<title>Kish Patel: Designer</title>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css" media="screen">
 	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -22,6 +22,9 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
 	<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
 	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+
+	<script src="//use.typekit.net/pny3zsj.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 
 </head>
 
@@ -50,17 +53,17 @@
 	<div class="menuBorder">
 	</div>
 
-	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+	<div class="slide" id="slide1">
 		<div class="container clearfix">
 
-			<div id="profileImage" class="grid_4 omega">
+			<div id="image-intro" class="grid_4 omega profileImage">
 				<img src="images/me.jpg">
 			</div>
 
-			<div id="content" class="grid_8">
-				<h1>Kish Patel</h1>
+			<div id="content-intro" class="grid_8 content">
+				<h1>Hello</h1>
 				<p>
-					My name is Kish Patel and I’m a product designer from London, UK. I’m passionate about building useful, human centred products through forward-thinking design and implementation and I’m currently doing so with the team at <a href="http://rockpack.com/" target="_blank" class='oldJob'>Rockpack</a> <a href="http://monitisecreate.com/" target="_blank">Monitise Create</a>.
+					My name is Kish Patel and I’m a product designer from London, UK. I’m passionate about building useful, human centered products through forward-thinking design and implementation and I’m currently doing so with the team at <a href="http://rockpack.com/" target="_blank" class='oldJob'>Rockpack</a> <a href="http://monitisecreate.com/" target="_blank" class='oldJob'>Monitise Create</a> <a href="http://transferwise.com/" target="_blank">TransferWise</a>.
 				</p>
 
 				<p>
@@ -79,10 +82,10 @@
 	</div>
 
 	
-	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+	<div class="slide" id="slide2">
 		<div class="container clearfix">
 
-			<div id="content" class="grid_7">
+			<div id="content-dd" class="grid_7 content">
 				<h1>Dubbledecker</h1>
 
 				<p>
@@ -119,7 +122,7 @@
 			
 			</div>
 
-			<div id="content" class="grid_5 omega phone_single phone">
+			<div id="screenshot-dd" class="grid_5 omega phone_single phone content">
 				<img src="images/ScreenshotDubbledecker.png">
 			</div>
 
@@ -128,10 +131,10 @@
 
 
 
-	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+	<div class="slide" id="slide3">
 		<div class="container clearfix">
 
-			<div id="content" class="grid_7">
+			<div class="grid_7 content">
 				<h1>Rockpack</h1>
 
 				<p>
@@ -168,7 +171,7 @@
 			
 			</div>
 			
-			<div id="content" class="grid_5 omega phone_single phone">
+			<div class="grid_5 omega phone_single phone content">
 				<img src="images/ScreenshotRockpack.png">
 			</div>
 
@@ -177,10 +180,10 @@
 
 
 
-	<div class="slide" id="footer" data-slide="4" data-stellar-background-ratio="0.5">
+	<div class="slide" id="footer">
 		<div class="container clearfix">
 
-			<div id="content" class="grid_12">
+			<div class="grid_12 content">
 				<p>&copy; 2014 Kish Patel</p>
 			</div>
 
@@ -201,6 +204,12 @@
    			var st = $(this).scrollTop();
    			divs.css({ 'opacity' : (0 + st/130) });
 		});
+
+		$('#image-intro').addClass('animated fadeInUp');
+		$('#content-intro').addClass('animated fadeInUp');
+		$('#screenshot-dd').addClass('animated fadeInUp');
+		$('#content-dd').addClass('animated fadeInUp');
+
 	</script>
 </body>
 </html>

@@ -6,7 +6,7 @@ html {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 body {
-	font-family: 'Merriweather', serif;
+	font-family: 'freight-text-pro', serif;
 	font-weight: 400;
 	font-size: 1em;
 	color: #777;
@@ -20,9 +20,8 @@ hr {
 	height: 1px;
   	border: 0;
 	width: 60%;
-	margin: 32px auto 32px auto;
+	margin: 24px auto 24px auto;
 }
-
 
 
 /*Links*/
@@ -34,7 +33,7 @@ a:link {
 }
 a:hover {
 	opacity: 0.5;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a:visited {
 	color: #72529D;
@@ -145,6 +144,11 @@ p.stars {
 
 p.centerText {
 	text-align: center;
+	font-family: 'freight-sans-pro', sans-serif;
+}
+
+p.centerText a {
+	letter-spacing: -0.5px;
 }
 
 
@@ -202,6 +206,7 @@ p.centerText {
 	height:2px; 
 	background-color: rgba(0,0,0,0.1);
 	z-index:99;
+	opacity: 0;
 }
 
 #logo {
@@ -232,17 +237,17 @@ p.centerText {
 	font-weight:bold;
 }
 
-#profileImage {
+.profileImage {
 	text-align:left;
 	padding-top: 34px;
 }
 
-#profileImage img {
+.profileImage img {
 	width: 94%;
 	margin-right: 6%;
 }
 
-#profileImage img:hover {
+.profileImage img:hover {
 	/*opacity: 0.5;*/
 }
 
@@ -258,7 +263,7 @@ p.centerText {
 }
 
 .slide h1 {
-	font-family: 'Merriweather', serif;
+	font-family: 'freight-sans-pro', sans-serif;
 	font-size: 2em;
 	font-weight: 700;
 	line-height: 0em;
@@ -266,7 +271,7 @@ p.centerText {
 }
 
 .slide h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'freight-sans-pro', sans-serif;
 	font-size: 0.7em;	
 	font-weight: 700;
 	color: #aaa;
@@ -275,7 +280,7 @@ p.centerText {
 }
 
 .slide h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'freight-sans-pro', sans-serif;
 	font-size: 0.7em;	
 	font-weight: 700;
 	color: #444;
@@ -284,9 +289,9 @@ p.centerText {
 }
 
 .slide p{
-	font-size: 0.85em;
+	font-size: 1em;
 	font-weight: 400;
-	line-height: 2em;
+	line-height: 1.7em;
 }
 
 /*Press Quotes*/
@@ -301,7 +306,7 @@ p.quote
 
 p.author 
 {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	font-weight: 700;
 	margin-top: 0;
 	color: #BBB;
@@ -310,7 +315,8 @@ p.author
 }
 
 p.author a {
-	text-decoration: underline;
+	font-family: 'freight-sans-pro', sans-serif;
+	letter-spacing: -0.5px;
 }
 
 
@@ -415,14 +421,14 @@ p.author a {
 	padding:0;
 }
 
-#profileImage {
+.profileImage {
 	width: 50%;
     margin: 0 25% 0 25%;
 	text-align:center;
 	padding-top: 0;
 }
 
-#profileImage img {
+.profileImage img {
 	width: 100%;
 	margin-right: 0;
 }
@@ -436,7 +442,8 @@ p.author a {
 	text-align: center;
 }
 
-#content {
+
+.content {
 	text-align:center;
 	width:100%;
 }
@@ -444,6 +451,7 @@ p.author a {
 .phone {
 	padding-top: 48px;
 }
+
 
 #slide1 h1 {
 	line-height: 1.1em;
@@ -502,7 +510,7 @@ p.author a {
 	width:25%;
 }
 
-#profileImage {
+.profileImage {
 	text-align:center;
 	width: 100%;
 	padding: 0;
@@ -552,6 +560,25 @@ p.author
 	line-height: 1em;
 }
 
+}
+
+
+/*Animations*/
+
+#image-intro {
+
+}
+
+#content-intro {
+	-vendor-animation-delay: 0.3s;
+}
+
+#screenshot-dd {
+	-vendor-animation-delay: 0.6s;
+}
+
+#content-dd {
+	-vendor-animation-delay: 0.9s;
 }
 
 
