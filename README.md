@@ -1,4 +1,3 @@
-Repo of my personal website.
+This is the repo of my [personal website](http://kishpatel.com).
 
-Based on CoolKitten by Jalxob
-https://github.com/jalxob/cool-kitten
+Built in Jeykll
