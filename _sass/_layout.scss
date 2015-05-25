@@ -1,0 +1,178 @@
+/**
+ * Styles
+ */
+
+h1 {
+    float: left;
+    font-size: 1em;
+    font-weight: $font-weight-med;
+    position: absolute;
+}
+
+p {
+    float: left;
+}
+
+a {
+
+    border-bottom: 1px solid $grey-color-light;
+
+    @include transition(all 0.2s ease);
+
+    &:hover {
+        border-bottom: 1px solid transparent;
+
+    }
+}
+
+strong {
+    font-weight: font-weight-med !important;
+}
+
+//Hovers
+.transferwise{
+
+    &:hover {
+    color: #00B9FF;
+    }
+}
+
+.twitter {
+
+    &:hover {
+    color: #55acee;
+    }
+}
+
+.dribbble {
+
+    &:hover {
+    color: #ea4c89;
+    }
+}
+
+.linkedin {
+
+    &:hover {
+    color: #0077b5;
+    }
+}
+
+.instagram {
+
+    &:hover {
+    color: #517fa4;
+    }
+}
+
+.github {
+
+    &:hover {
+    color: #999;
+    }
+}
+
+.bitbucket {
+
+    &:hover {
+    color: #205081;
+    }
+}
+
+.spotify {
+
+    &:hover {
+    color: #84BD00;
+    }
+}
+
+.soundcloud {
+
+    &:hover {
+    color: #ff7700;
+    }
+}
+
+
+/**
+ * Page content
+ */
+
+.home {
+    //padding-bottom: $spacing-unit * 5;
+    @include media-query($on-palm) {
+        .bio {
+            padding-top: $spacing-unit*2;
+        }
+    }
+}
+
+.p-container {
+    float: left;
+    margin-bottom: $spacing-unit*3;
+    width: 100%;
+
+    p {
+        margin-bottom: $spacing-unit;
+        @extend .span_4;
+        @extend .push_1;
+    }
+
+    img {
+        @extend .span_6;
+    }
+
+    @include media-query($on-palm) {
+        padding-top: $spacing-unit*2;
+    } 
+}
+
+.me {
+    margin-bottom: $spacing-unit * 2;
+
+
+    @include media-query($on-palm) {
+        margin-bottom: $spacing-unit;
+        margin-top: 5px;
+    }
+}
+
+
+
+/**
+ * Posts
+ */
+
+.post-content {
+    float: left;
+
+    .half {
+        float: left;
+        @extend .span_3;
+    } 
+
+    .full {
+        float: left;
+        @extend .span_6;
+    }
+
+    figure {
+        margin-bottom: 0;
+    }
+
+    p {
+        @extend .span_4;
+        @extend .push_1;
+    }
+
+    hr {
+        border: 1px solid transparent;
+        margin-bottom:$spacing-unit*2;
+        width: 100%;
+    }  
+
+    @include media-query($on-palm) {
+        padding-top: $spacing-unit*2;
+    } 
+
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KishPatel.com</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://kishpatel.com/</link>
+    <atom:link href="http://kishpatel.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 May 2015 01:46:05 +0100</pubDate>
+    <lastBuildDate>Mon, 25 May 2015 01:46:05 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Dubbledecker</title>
+        <description>&lt;p&gt;I designed and developed Dubbledecker to help simplify my manic weekday commute. An easy and fast way to find out travel data was important to me as we Londoners try to optimise our time as best we can. Building Dubbledecker was my way of learning iOS development and working with RESTful web services.&lt;/p&gt;
+
+&lt;p&gt;Since it’s launch, Dubbledecker has been featured numerous times across Apple’s UK App Store. Notable categories include Best New Apps, Best Travel Apps, For Your Commute &amp;amp; Get Around London.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://dubbledecker.com/&quot; title=&quot;Dubbledecker&#39;s Website&quot;&gt;Visit the site&lt;/a&gt; or &lt;a href=&quot;https://itunes.apple.com/gb/app/dubbledecker/id806904237?mt=8&quot; title=&quot;Download Dubbledecker from the App Store&quot;&gt;Download the app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-screens.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;half&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-logo.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;half&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-app-icon.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-main-screens.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-onboarding.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-other-screens.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-web-screens.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-web-1.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-web-2.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;full&quot;&gt;&lt;img src=&quot;/images/portfolio/dubbledecker/dd-web-3.jpg&quot; /&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Sat, 15 Mar 2014 00:00:00 +0000</pubDate>
+        <link>http://kishpatel.com/dubbledecker</link>
+        <guid isPermaLink="true">http://kishpatel.com/dubbledecker</guid>
+        
+        <category>apps</category>
+        
+        <category>mobile</category>
+        
+        <category>personal</category>
+        
+        
+        <category>mobile</category>
+        
+      </item>
+    
+  </channel>
+</rss>

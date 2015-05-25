@@ -1,0 +1,14 @@
+/**
+ * Site footer
+ */
+.footer-content {
+
+    height: 130px;
+    line-height: 130px;
+    border-top: 1px solid $grey-color-light;
+    color: $grey-color-mid;
+}
+
+footer {
+    margin-top: $spacing-unit * 3;
+}

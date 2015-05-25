@@ -1,0 +1,37 @@
+---
+layout: default
+title: Portfolio
+---
+
+<h1 class="span_1">
+	My work
+</h1>
+
+<div class="p-container">
+	<p>
+		Below are a select few case studies of my past work. My most up to date work and experiments can be found on my <a href="http://dribbble.com/kishpatel" class="dribbble" target="_blank">Dribbble</a> page.
+	</p>
+
+  <div class="thumbnails" id="thumbnails">
+
+    {% for post in site.posts %}
+
+    <figure class="effect-kish">
+
+      <img src="/images/portfolio/{{ post.imgurl }}/{{ post.image }}" alt="{{ post.image }}"/>
+      
+      <figcaption>
+
+        <h2>{{ post.title }}</h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">View</a>
+
+      </figcaption>   
+
+    </figure>
+
+    {% endfor %}
+    
+  </div>
+
+</div>
+

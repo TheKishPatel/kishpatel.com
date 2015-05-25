@@ -1,0 +1,26 @@
+<header class="site-header">
+
+  <div class="wrapper">
+    
+    <div class="site-header-logo-container span_1">
+      <a href="{{ site.baseurl }}/">
+        <div class="site-header-logo"></div>
+      </a>
+    </div>
+
+    <nav class="site-nav span_5">
+
+      <ul>
+          {% if page.title == 'Portfolio' %}
+            <li><a href="/portfolio/" class="active">Portfolio</a></li>
+          {% else %}
+            <li><a href="/portfolio/">Portfolio</a></li>
+          {% endif %}
+
+      </ul>
+
+    </nav>
+
+  </div>
+
+</header>
