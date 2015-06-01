@@ -143,6 +143,16 @@ strong {
  * Posts
  */
 
+ .post {
+    article {
+        h1 {
+            @media screen and (min-width: $on-laptop) {
+                max-width: 160px;
+            }
+        }
+    }
+ }
+
 .post-content {
     float: left;
 
