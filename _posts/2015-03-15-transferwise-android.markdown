@@ -11,7 +11,7 @@ website: http://transferwise.com
 appurl: https://play.google.com/store/apps/details?id=com.transferwise.android
 ---
 
-I'm currently compiling this case study. In the mean time, [Download the app](https://play.google.com/store/apps/details?id=com.transferwise.android "Download TransferWise from the Play Store") or [Visit the TransferWise website](http://transferwise.com/ "Dubbledecker's Website").
+I'm currently compiling this case study. In the mean time, why not [Download the app](https://play.google.com/store/apps/details?id=com.transferwise.android "Download TransferWise from the Play Store") or [Visit the TransferWise website](http://transferwise.com/kish "TransferWise's Website").
 
 
 ---

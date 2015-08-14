@@ -33,6 +33,15 @@ body {
     }
 }
 
+h1, p {
+    line-height: 32px;
+    margin-bottom: 20px;
+
+     @include media-query($on-laptop) {
+        line-height: 28px;
+    }
+}
+
 
 
 /**
