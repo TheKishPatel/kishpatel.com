@@ -30,7 +30,7 @@
     padding:$padding;
     margin-left:$gutter_pc;
 
-    @include media-query($on-palm) {
+    @include media-query-smaller-than($on-palm) {
         @include span_first;
         width:100%;
     }
@@ -41,7 +41,7 @@
     $one_col: (100% - ($gutter_pc * ($max_columns - 1))) / $max_columns;
     margin-left:$gutter_pc + (($one_col * $num) + ($gutter_pc * ($num - 1)));
 
-    @include media-query($on-palm) {
+    @include media-query-smaller-than($on-palm) {
         @include span_first;
         margin-left: $gutter_pc;
     }

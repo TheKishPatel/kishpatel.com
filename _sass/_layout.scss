@@ -6,7 +6,10 @@ h1 {
     float: left;
     font-size: 1em;
     font-weight: $font-weight-med;
-    position: absolute;
+
+    @include media-query-larger-than($on-palm) {
+        position: absolute;
+    }
 }
 
 p {
@@ -100,16 +103,22 @@ strong {
 
 .home {
     //padding-bottom: $spacing-unit * 5;
-    @include media-query($on-palm) {
+    @include media-query-smaller-than($on-palm) {
         .bio {
             padding-top: $spacing-unit*2;
         }
     }
 }
 
+.page-content {
+    
+    @include media-query-larger-than($on-palm) {
+        margin-top: $spacing-unit*1.5;
+    }
+}
+
 .p-container {
     float: left;
-    margin-bottom: $spacing-unit*3;
     width: 100%;
 
     p {
@@ -121,17 +130,13 @@ strong {
     img {
         @extend .span_6;
     }
-
-    @include media-query($on-palm) {
-        padding-top: $spacing-unit*2;
-    } 
 }
 
 .me {
     margin-bottom: $spacing-unit * 2;
 
 
-    @include media-query($on-palm) {
+    @include media-query-smaller-than($on-palm) {
         margin-bottom: $spacing-unit;
         margin-top: 5px;
     }
@@ -179,10 +184,6 @@ strong {
         border: 1px solid transparent;
         margin-bottom:$spacing-unit*2;
         width: 100%;
-    }  
-
-    @include media-query($on-palm) {
-        padding-top: $spacing-unit*2;
-    } 
+    }
 
 }

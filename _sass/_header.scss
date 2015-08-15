@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-	min-height: 110px;
+	min-height: 70px;
 	padding-top: 40px;
-    @include media-query($on-palm) {
+    @include media-query-smaller-than($on-palm) {
         min-height: 70px;
     }
 }
@@ -13,7 +13,7 @@
     float: left;
 
     //width on mobile
-    @include media-query($on-palm) {
+    @include media-query-smaller-than($on-palm) {
         width: 16.6667% !important;
     }
 }
@@ -47,7 +47,7 @@
     	margin-top: 4px;
         margin-left: 0;
 
-    	@include media-query($on-palm) {
+    	@include media-query-smaller-than($on-palm) {
             text-align: right;
     	}
     }
@@ -56,7 +56,7 @@
     	display: inline-block;
     	margin-right: $spacing-unit*2;
 
-        @include media-query($on-palm) {
+        @include media-query-smaller-than($on-palm) {
             margin-right: 0;
             margin-left: $spacing-unit*2;
         }
@@ -79,7 +79,7 @@
     }
 
     //width on mobile
-    @include media-query($on-palm) {
+    @include media-query-smaller-than($on-palm) {
         width: 83.333% !important;
     }
 }
