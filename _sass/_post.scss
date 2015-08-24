@@ -1,0 +1,81 @@
+.post {
+    article {
+        h1 {
+            @media screen and (min-width: $on-laptop) {
+                max-width: 128px;
+            }
+        }
+    }
+ }
+
+.post-content {
+    float: left;
+
+    .third {
+        float: left;
+        @extend .span_2;
+    } 
+
+    .half {
+        float: left;
+        @extend .span_3;
+    } 
+
+    .full {
+        float: left;
+        @extend .span_6;
+    }
+
+    figure {
+        margin-bottom: 0;
+        position: relative;
+        overflow: hidden;
+        background-color: $grey-color-dark;
+
+        figcaption {
+
+            visibility:hidden;
+            opacity: 0;
+            pointer-events:none;
+
+            @include transition(all 0.2s ease-in-out);
+            @include linear-gradient(-90deg, rgba($grey-color-dark,0.00) 0%, rgba($grey-color-dark,0.8) 96%);
+
+            bottom: -20px;
+            width: 100%;
+            padding-top: $spacing-unit * 8;
+            padding-bottom: $spacing-unit;
+            position: absolute;
+
+            p {
+                margin-left: $spacing-unit;
+                margin-bottom: 0;
+                width: calc(100% - (#{$spacing-unit * 2}));
+                width: -webkit-calc(100% - (#{$spacing-unit * 2})); 
+                color: $background-color;
+                font-size: 1em;
+                font-weight: $font-weight-med;
+                text-align: center;
+                line-height: 1.6em;
+            }
+        }
+
+        img:hover + figcaption {
+            visibility:visible;
+            opacity: 1;
+            bottom: 0;
+        }
+    }
+
+    p {
+        @extend .span_4;
+        @extend .push_1;
+    }
+
+    hr {
+        border: 1px solid transparent;
+        margin-bottom:$spacing-unit*2;
+        width: 100%;
+    }
+
+}

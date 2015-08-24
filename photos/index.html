@@ -1,0 +1,29 @@
+---
+layout: default
+title: Photos
+---
+
+<h1 class="span_1">
+  My Photos
+</h1>
+
+<div class="p-container">
+  <p>
+    My new year's resolution for 2015 was to capture more memories. Here are some photos I've taken while adventuring across the globe.
+  </p>
+
+    {% for post in site.posts %}
+
+      {% if post.category == "Photos" %}
+
+        <p>
+          <span class="photo-flag">{{ post.flag }}</span>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="photo-date">{{ post.date | date: '%B %Y' }}</span>
+        </p>
+
+      {% endif %}
+
+    {% endfor %}
+    
+</div>

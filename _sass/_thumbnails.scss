@@ -18,7 +18,7 @@
     float: left;
 
     height: 480px;
-    margin-bottom: 0;
+    margin-bottom: $spacing-unit / 2;
     text-align: center;
     cursor: pointer;
 
@@ -147,6 +147,9 @@ figure.effect-kish figcaption {
 
 figure.effect-kish h2 {
     position: relative;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
     @include media-query-larger-than($on-laptop) {
       opacity: 0;
       @include transition(opacity 0.4s ease);

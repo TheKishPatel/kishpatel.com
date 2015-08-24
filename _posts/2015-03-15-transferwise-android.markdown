@@ -3,7 +3,7 @@ layout: post
 title:  "TransferWise: Android"
 date:   2015-03-15 00:00:00
 tags: apps mobile transferwise android
-category: Mobile
+category: Portfolio
 project: TransferWise
 imgurl: transferwise-android
 image: tw-android-thumb.jpg

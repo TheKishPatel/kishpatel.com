@@ -13,8 +13,33 @@
       <ul>
           {% if page.title == 'Portfolio' %}
             <li><a href="/portfolio/" class="active">Portfolio</a></li>
+            <li><a href="/photos/">Photos</a></li>
+            <li><a href="/books/">Books</a></li>
+            <li><a href="/blog/">Blog</a></li>
+
+          {% elsif page.title == 'Photos' %}
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/photos/" class="active">Photos</a></li>
+            <li><a href="/books/">Books</a></li>
+            <li><a href="/blog/">Blog</a></li>
+
+          {% elsif page.title == 'My Reading List' %}
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/photos/" >Photos</a></li>
+            <li><a href="/books/" class="active">Books</a></li>
+            <li><a href="/blog/">Blog</a></li>
+
+          {% elsif page.title == 'Blog' %}
+            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/photos/" >Photos</a></li>
+            <li><a href="/books/">Books</a></li>
+            <li><a href="/blog/" class="active">Blog</a></li>
+
           {% else %}
             <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/photos/">Photos</a></li>
+            <li><a href="/books/">Books</a></li>
+            <li><a href="/blog/">Blog</a></li>
           {% endif %}
 
       </ul>

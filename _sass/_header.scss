@@ -11,11 +11,6 @@
 
 .site-header-logo-container {
     float: left;
-
-    //width on mobile
-    @include media-query-smaller-than($on-palm) {
-        width: 16.6667% !important;
-    }
 }
 
 .site-header-logo {
@@ -29,6 +24,10 @@
 
     a {
         display: block;
+    }
+
+    @include media-query-smaller-than($on-palm) {
+        margin: auto;
     }
 }
 
@@ -48,7 +47,7 @@
         margin-left: 0;
 
     	@include media-query-smaller-than($on-palm) {
-            text-align: right;
+            text-align: center;
     	}
     }
 
@@ -57,8 +56,8 @@
     	margin-right: $spacing-unit*2;
 
         @include media-query-smaller-than($on-palm) {
-            margin-right: 0;
-            margin-left: $spacing-unit*2;
+            margin-right: $spacing-unit*0.7;
+            margin-left: $spacing-unit*0.7;
         }
 
     	a {
@@ -80,6 +79,9 @@
 
     //width on mobile
     @include media-query-smaller-than($on-palm) {
-        width: 83.333% !important;
+        border-bottom: 1px solid $grey-color-light;
+        margin-top: $spacing-unit*2;
+        margin-bottom: $spacing-unit*2;
+        padding-bottom: $spacing-unit !important;
     }
 }

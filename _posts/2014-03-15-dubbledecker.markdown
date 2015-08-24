@@ -3,7 +3,7 @@ layout: post
 title:  "Dubbledecker"
 date:   2014-03-15 00:00:00
 tags: apps mobile personal
-category: Mobile
+category: Portfolio
 project: Personal Project
 imgurl: dubbledecker
 image: dd-thumb.jpg

@@ -5,6 +5,8 @@
 
 // Our variables
 $base-font-family:	"pragmatica-web", Helvetica Neue, Helvetica, Arial, sans-serif;
+$emoji-font-family:     "Apple Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
+
 $base-font-size:	16px;
 $small-font-size:	$base-font-size * 0.875;
 $base-line-height:	1.5;
@@ -15,57 +17,31 @@ $background-color:	#ffffff;
 
 $grey-color-dark:	#111;
 $grey-color-mid:	#777;
+$grey-color-mid-light:  #AAA;
 $grey-color-light:	#DDD;
 
 // Width of the content area
 $content-width:		960px;
 
-$on-phone:     400px;
-$on-palm:			601px;
-$on-laptop:			800px;
+$on-phone:              400px;
+$on-palm:               601px;
+$on-laptop:             800px;
 
 $font-weight-light:	200;
 $font-weight-reg:	300;
 $font-weight-med:	400;
 
-@mixin media-query-smaller-than($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-@mixin media-query-larger-than($device) {
-    @media screen and (min-width: $device) {
-        @content;
-    }
-}
-
-
-@mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
-  transition: $args;
-}
-
-@mixin transform($args...) {
-  -webkit-transform: $args;
-  -moz-transform: $args;
-  -ms-transform: $args;
-  -o-transform: $args;
-  transform: $args;
-}
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "mixins",
         "base",
         "layout",
         "header",
         "footer",
         "grid",
         "thumbnails",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "post",
+        "photo"
 ;

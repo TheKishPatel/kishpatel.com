@@ -4,7 +4,7 @@ title: Portfolio
 ---
 
 <h1 class="span_1">
-	My work
+	My Work
 </h1>
 
 <div class="p-container">
@@ -16,18 +16,22 @@ title: Portfolio
 
     {% for post in site.posts %}
 
-    <figure class="effect-kish">
+      {% if post.category == "Portfolio" %}
 
-      <img src="/images/portfolio/{{ post.imgurl }}/{{ post.image }}" alt="{{ post.image }}"/>
-      
-      <figcaption>
+        <figure class="effect-kish">
 
-        <h2>{{ post.title }}</h2>
-        <a href="{{ post.url | prepend: site.baseurl }}">View</a>
+          <img src="/images/portfolio/{{ post.imgurl }}/{{ post.image }}" alt="{{ post.image }}"/>
+          
+          <figcaption>
 
-      </figcaption>   
+            <h2>{{ post.title }}</h2>
+            <a href="{{ post.url | prepend: site.baseurl }}">View</a>
 
-    </figure>
+          </figcaption>   
+
+        </figure>
+
+      {% endif %}
 
     {% endfor %}
     
