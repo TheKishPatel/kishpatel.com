@@ -1,8 +1,17 @@
 .post {
     article {
-        h1 {
+        h1, h2 {
             @media screen and (min-width: $on-laptop) {
-                max-width: 128px;
+                max-width: 240px;
+            }
+        }
+
+        h2 {
+            color: $grey-color-mid;
+            position: absolute;
+
+            @media screen and (max-width: $on-palm) {
+                position: static;
             }
         }
     }
@@ -11,19 +20,14 @@
 .post-content {
     float: left;
 
-    .third {
-        float: left;
-        @extend .span_2;
-    } 
-
     .half {
         float: left;
-        @extend .span_3;
+        @extend .span_4;
     } 
 
     .full {
         float: left;
-        @extend .span_6;
+        @extend .span_8;
     }
 
     figure {
@@ -69,7 +73,8 @@
 
     p {
         @extend .span_4;
-        @extend .push_1;
+        @extend .push_2;
+        margin-bottom: $spacing-unit;
     }
 
     hr {
@@ -78,4 +83,17 @@
         width: 100%;
     }
 
+    strong {
+        font-weight: $font-weight-med;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        margin-bottom: -8px;
+    }
+
+    video::-webkit-media-controls {
+        display:none !important;
+    }
 }

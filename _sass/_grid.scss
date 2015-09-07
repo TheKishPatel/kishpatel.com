@@ -76,7 +76,7 @@
         }
         
         /* --- Gridpak variables ---*/ 
-        $max_columns: 6;
+        $max_columns: 8;
         $padding: 0 0px;
         $gutter_px: 20px;
         $gutter_pc: 0;
@@ -109,12 +109,21 @@
             @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
         .span_6 {
+            @include span(6, $gutter_pc, $gutter_px, $padding, $max_columns);
+        }
+        .span_7 {
+            @include span(7, $gutter_pc, $gutter_px, $padding, $max_columns);
+        }
+        .span_8 {
             @include span_first;
             width:100%;
         }
 
         .push_1 {
             @include push(1, $gutter_pc, $gutter_px, $padding, $max_columns);
+        }
+        .push_2 {
+            @include push(2, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
     }
  

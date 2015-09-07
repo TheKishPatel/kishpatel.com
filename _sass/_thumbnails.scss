@@ -18,13 +18,25 @@
     float: left;
 
     height: 480px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 0;
     text-align: center;
     cursor: pointer;
 
-    display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;   
+    display: -webkit-flex;
+    display: flex;   
+    
     justify-content:center;
     align-items:center;
+
+    -webkit-justify-content:center;
+    -webkit-align-items:center;
+
+    -moz-justify-content:center;
+    -moz-align-items:center;
+
     overflow:hidden;
 
     @include media-query-smaller-than($on-laptop) {
