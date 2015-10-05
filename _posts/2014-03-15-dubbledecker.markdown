@@ -15,7 +15,7 @@ I designed and developed Dubbledecker to help simplify my manic weekday commute.
 
 Since it's launch, Dubbledecker has been featured numerous times across Apple's UK App Store. Notable categories include Best New Apps, Best Travel Apps, For Your Commute & Get Around London.
 
-[Visit the site](http://dubbledecker.com/ "Dubbledecker's Website") or [Download the app](https://itunes.apple.com/gb/app/dubbledecker/id806904237?mt=8 "Download Dubbledecker from the App Store").
+[Visit the site](http://dubbledecker.com/ "Dubbledecker's Website"){:target="_blank"}  or [Download the app](https://itunes.apple.com/gb/app/dubbledecker/id806904237?mt=8 "Download Dubbledecker from the App Store"){:target="_blank"} .
 
 
 ---

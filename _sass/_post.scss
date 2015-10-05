@@ -71,10 +71,17 @@
         }
     }
 
-    p {
+    p{
         @extend .span_4;
         @extend .push_2;
         margin-bottom: $spacing-unit;
+    }
+
+    iframe{
+        @extend .span_4;
+        @extend .push_2;
+        margin-bottom: $spacing-unit;
+        border-left-width: 0;
     }
 
     hr {
