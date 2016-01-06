@@ -36,7 +36,7 @@ This guide has proved to be incredibly useful to me when designing and building 
 
 My knowledge of iOS development and my ability to be able to pick up new programming languages started with this book. A friend gave me it as a nudge to learn software development outside of writing HTML and CSS. It was quite daunting at first, however persistence (and some light Googling) paid off.
 
-It's well written and moderately easy to understand for someone being introduced to programming for the first time and there are simple yet sophisticated exercises throughout. It was a rough couple of months of reading during my daily commute... as it's not the lightest of books! 
+It's well written and moderately easy to understand for someone being introduced to programming for the first time and there are simple yet sophisticated exercises throughout. It was a rough couple of months of reading during my daily commute... as it's not the lightest of books!
 
 ---
 
@@ -68,14 +68,3 @@ Zero to One is a fantastic book. Thiel's past experiences are both interesting a
 This was the book made me realise the importance of company culture. Schmidt and Rosenberg describe how hiring and ways of working can make even a giant organisation like Google as versatile as an early stage start up. They also detail how focussing on the customer and their experience always pays off.
 
 ---
-
-
-##Next on the list
-
-###[Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.co.uk/Design-patterns-elements-reusable-object-oriented/dp/0201633612){:target="_blank"} *Erich Gamma, Richard Helm, Ralph Johnson & John Vlissides*
-
-###[How to Win Friends and Influence People](http://www.amazon.co.uk/How-Win-Friends-Influence-People/dp/0091906814/){:target="_blank"} *Dale Carnegie*
-
-###[Ogilvy on Advertising](http://www.amazon.co.uk/Ogilvy-Advertising-David/dp/1853756156){:target="_blank"} *David Ogilvy*
-
-###[The Brand Book ](http://www.amazon.co.uk/Wally-Olins-Brand-Handbook/dp/0500514089/){:target="_blank"} *Wally Olins*

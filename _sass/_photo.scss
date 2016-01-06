@@ -9,15 +9,16 @@
  }
 
 .photo-content {
-    
+
     @extend .post-content;
+    margin-top: $spacing-unit;
 
     .third {
         margin-bottom: $spacing-unit/2;
         margin-right: $spacing-unit/2;
         width: calc(33.333% + (#{$spacing-unit / 6}) - (#{$spacing-unit / 2}));
-        width: -webkit-calc(33.333% + (#{$spacing-unit / 6}) - (#{$spacing-unit / 2})); 
-    } 
+        width: -webkit-calc(33.333% + (#{$spacing-unit / 6}) - (#{$spacing-unit / 2}));
+    }
 
     .third:nth-of-type(3n+0) {
         margin-right: 0;
@@ -27,8 +28,8 @@
         margin-bottom: $spacing-unit/2;
         margin-right: $spacing-unit/2;
         width: calc(50% - (#{$spacing-unit / 2}));
-        width: -webkit-calc(50% + (#{$spacing-unit / 4}) - (#{$spacing-unit / 2})); 
-    } 
+        width: -webkit-calc(50% + (#{$spacing-unit / 4}) - (#{$spacing-unit / 2}));
+    }
 
     .half:nth-of-type(even) {
         margin-right: 0;
@@ -42,7 +43,7 @@
         .half, .third {
             width:100%;
             margin-right: 0;
-        } 
+        }
     }
 
     .third, .half {
@@ -58,4 +59,5 @@
 .photo-date {
     color: $grey-color-mid-light;
     margin-left: $spacing-unit / 2;
+    font-weight: $font-weight-med;
 }

@@ -99,7 +99,7 @@ strong {
 .spotify {
 
     &:hover {
-    color: #84BD00;
+    color: #23CF5F;
     }
 }
 
@@ -125,7 +125,7 @@ strong {
 }
 
 .page-content {
-    
+
     @include media-query-larger-than($on-palm) {
         margin-top: $spacing-unit*1.5;
     }

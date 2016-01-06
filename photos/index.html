@@ -1,29 +1,26 @@
 ---
-layout: default
+layout: page
 title: Photos
 ---
 
-<h1 class="span_1">
-  My Photos
-</h1>
+<p>
+  My new year's resolution for 2015 was to capture more memories. Here are some photos I've taken while adventuring across the globe.
+</p>
 
-<div class="p-container">
-  <p>
-    My new year's resolution for 2015 was to capture more memories. Here are some photos I've taken while adventuring across the globe.
-  </p>
+<hr>
 
-    {% for post in site.posts %}
+<h2>Budapest <span class="photo-date">August 2015</span></h2>
 
-      {% if post.category == "Photos" %}
+<p>
 
-        <p>
-          <span class="photo-flag">{{ post.flag }}</span>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span class="photo-date">{{ post.date | date: '%B %Y' }}</span>
-        </p>
+  We flew with WizzAir, who are extremely stingy and pedantic about luggage size and weight. I was only able to take shots on my iPhone 6, however the few photos I took came out great.
+</p>
 
-      {% endif %}
-
-    {% endfor %}
-    
+<div class="photo-content">
+  {% image half /images/photos/bud_bridge.jpg "The Széchenyi Chain Bridge" %}
+  {% image half /images/photos/bud_trees.jpg "Great weather" %}
+  {% image full /images/photos/bud_overlook.jpg "A view of St. Stephen's Basilica" %}
+  {% image third /images/photos/bud_skyline.jpg "The view from the hill that leads to Liberty Statue" %}
+  {% image third /images/photos/bud_stairs.jpg "Sunset peeking through the trees" %}
+  {% image third /images/photos/bud_castle.jpg "Buda Castle" %}
 </div>
